@@ -16,7 +16,7 @@ To run through sbt, follow the steps as mentioned on [spray-template](https://gi
 		
 		$ foreman start
 		
-4. Browse to [http://localhost:5000](http://localhost:5000)
+4. Browse to [http://localhost:7070](http://localhost:7070)
 
 5. Learn more about hacking spray on [http://spray.io](http://spray.io)
 
@@ -25,11 +25,11 @@ This fork adds following changes
 
 1. A procfile for Heroku
 
-		$ web: target/universal/stage/bin/demo-service -Dhttp.port=$PORT -Dconfig.file=config/application.conf
+		$ web: target/universal/stage/bin/demo-service
 		
-2. An application config file to pick up environment variables when running on heroku, view the file at
+2. An updated application config file to pick up environent variables when running on heroku, view the file at
 
-		$ config/application.conf
+		$ src/main/resources/application.conf
 		
 3. Plugins added on top of the fork
 
