@@ -16,7 +16,7 @@ To run through sbt, follow the steps as mentioned on [spray-template](https://gi
 		
 		$ foreman start
 		
-4. Browse to [http://localhost:7070](http://localhost:7070)
+4. Browse to [http://localhost:5000](http://localhost:5000)
 
 5. Learn more about hacking spray on [http://spray.io](http://spray.io)
 
