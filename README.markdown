@@ -25,7 +25,7 @@ This fork adds following changes
 
 1. A procfile for Heroku
 
-		$ web: target/universal/stage/bin/demo-service
+		$ web: target/universal/stage/bin/demo-service -Dhttp.port=$PORT
 		
 2. An updated application config file to pick up environent variables when running on heroku, view the file at
 
